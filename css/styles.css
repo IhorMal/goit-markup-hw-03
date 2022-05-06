@@ -261,8 +261,9 @@ picture {
   flex-wrap: wrap;
 }
 
-.team-img {
+.team-information {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .team-item {
@@ -392,7 +393,6 @@ picture {
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: #fff;
-  outline: 1px solid #eeeeee;
 }
 
 .portfolio-items:nth-child(3n) {
@@ -406,10 +406,14 @@ picture {
   display: block;
 }
 
+.portfolio-description {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
 .portfolio-title {
   margin-bottom: 4px;
-  margin-top: 20px;
-  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -418,9 +422,6 @@ picture {
 }
 
 .portfolio-text {
-  padding-right: 60px;
-  margin-bottom: 20px;
-  margin-left: 24px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-txt-cl);
